@@ -57,16 +57,14 @@ export const Header = () => {
   return (
     <>
       <header className='header'>
-        <div className='container'>
+        
+        <div className='container' style={{direction:"rtl"}}>
           <nav>
             <div className='toggle'>
               <button onClick={() => setMobile(!mobile)}>{mobile ? <AiOutlineClose className='close heIcon' /> : <AiOutlineMenu className='open heIcon' />}</button>
             </div>
-            <div className='left'>
-              <Link to='/'>
-                <img src={logo} alt='logo' />
-              </Link>
-            </div>
+           
+            
             <div className='center'>
               <ul className={mobile ? "mobile-nav" : "menu"}>
                 {navlist.map((nav, i) => (
@@ -79,7 +77,7 @@ export const Header = () => {
           </nav>
           <div className='right'>
             <div className='right_search'>
-              <input type='text' placeholder='Search Products...' />
+              <input type='text' placeholder="...جستجو"/>
               <BiSearch className='serachIcon heIcon' />
             </div>
             <div className='right_user'>
@@ -89,7 +87,7 @@ export const Header = () => {
             <div className='right_card'>
               <button className='button' onClick={() => setCartList(!cartList)}>
                 <BsBagCheck className='shop heIcon' />
-                MY CART<span> ({getdata.length})</span>
+                سبد خرید<span> ({getdata.length})</span>
               </button>
               <div className={cartList ? "showCart" : "hideCart"}>
                 {getdata.length ? (
@@ -124,8 +122,8 @@ export const Header = () => {
                     </div>
                   </section>
                 ) : (
-                  <div className='empty'>
-                    <p>Your cart is empty</p>
+                  <div className='empty' style={{direction:""}}>
+                    <p>سبد خرید شما خالی است</p>
                     <img src={cartimg} alt='' />
                   </div>
                 )}

@@ -33,12 +33,15 @@ li {
 }
 
 .button {
-  @include width(150px, 40px, linear-gradient(90deg, #ff4267 40%, #ff4b2e 100%), $white, 40px, none);
+  @include width(150px, 40px, linear-gradient(90deg, #443f40 40%, #4d4a49 100%), $white, 40px, none);
   @include flex(center, center, center);
   .heIcon {
     margin: 0 $sm;
     color: $white;
   }
+}
+.button:hover{
+  @include width(150px, 40px, linear-gradient(90deg, #6e6a6b 40%, #96908e 100%), $white, 40px, none);
 }
 section {
   @include pa_ma($md $xl-2, none);

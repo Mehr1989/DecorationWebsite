@@ -3,23 +3,23 @@ import { AiOutlineClose } from "react-icons/ai"
 
 export const navlist = [
   {
-    text: "home",
+    text: "خانه",
     path: "/",
   },
   {
-    text: "shop",
+    text: "خرید",
     path: "/shop",
   },
   {
-    text: "about us",
+    text: "درباره ما",
     path: "/about",
   },
   {
-    text: "blog",
+    text: "بلاگ",
     path: "/blog",
   },
   {
-    text: "contact us",
+    text: "تماس با ما",
     path: "/contact",
   },
 ]
