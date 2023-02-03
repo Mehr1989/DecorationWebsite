@@ -3,13 +3,18 @@ import React from "react";
 export default function CarouselSection(props) {
   return (
     <div className="card">
-      <img className="product--image" src={props.url} alt="product image" />
+      
+    <div style={{backgroundColor:"green",height:"15vh"}}>
+     <img className="product--image" src={props.url} alt="product image" />
+
+    </div>
+  
+      
+      
       <h2>{props.name}</h2>
-      <p className="price">{props.price}</p>
+      
       <p>{props.description}</p>
-      <p>
-        <button>Add to Cart</button>
-      </p>
+     
     </div>
   );
 }

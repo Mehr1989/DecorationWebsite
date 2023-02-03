@@ -1,8 +1,9 @@
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import CarouselSection from "./CarouselSection";
+
 import { productData, responsive } from "./data";
+import CarouselSection from "./CarouselSection";
 
 
 
@@ -20,10 +21,18 @@ export default function Catagory() {
 
   return (
     <div className="Catagory">
-      <h1>React multi carousel</h1>
-      <Carousel showDots={true} responsive={responsive}>
+      <div style={{backgroundColor:"pink",display:"flex",justifyContent:"center"}}>
+      <h1>ایده های دیزاین خانه</h1>
+
+      </div>
+      <div>
+
+       <Carousel showDots={true} responsive={responsive}>
         {product}
       </Carousel>
+      </div>
+      
+     
     </div>
   );
 }

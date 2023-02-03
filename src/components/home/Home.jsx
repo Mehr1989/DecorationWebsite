@@ -1,5 +1,5 @@
 import React from "react"
-import Catagory from "../catagiry/Catagory"
+import Catagory from "../catagory/Catagory"
 import { Banner } from "./banner/Banner"
 import { Blog } from "./blog/Blog"
 import { Details } from "./details/Details"
