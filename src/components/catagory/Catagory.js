@@ -21,8 +21,8 @@ export default function Catagory() {
 
   return (
     <div className="Catagory">
-      <div style={{backgroundColor:"pink",display:"flex",justifyContent:"center"}}>
-      <h1>ایده های دیزاین خانه</h1>
+      <div style={{display:"flex",justifyContent:"center"}}>
+      <h1>ایده های دکوراسیون و طراحی خانه</h1>
 
       </div>
       <div>

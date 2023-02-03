@@ -2,10 +2,10 @@ import React from "react";
 
 export default function CarouselSection(props) {
   return (
-    <div className="card">
+    <div className="card" key={props.id}>
       
     <div style={{dispaly:"flex",height:"25vh",objectFit:'cover'}}>
-     <img src={props.url} alt="home" />
+     <img className="product--image" src={props.url} alt="" />
 
     </div>
   
@@ -13,7 +13,7 @@ export default function CarouselSection(props) {
       
       <h2>{props.name}</h2>
       
-      <p>{props.description}</p>
+      
      
     </div>
   );
