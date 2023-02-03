@@ -4,8 +4,8 @@ export default function CarouselSection(props) {
   return (
     <div className="card">
       
-    <div style={{backgroundColor:"green",height:"15vh"}}>
-     <img className="product--image" src={props.url} alt="product image" />
+    <div style={{dispaly:"flex",height:"25vh",objectFit:'cover'}}>
+     <img src={props.url} alt="home" />
 
     </div>
   
