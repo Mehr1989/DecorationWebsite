@@ -5,7 +5,7 @@ import { ProductItems } from "../product/ProductItems"
 
 export const TopProduct = () => {
   const [cartItems, setCartItems] = useState(topProducts)
-  const allCategories = ["all", ...new Set(cartItems.map((item) => item.category))]
+  const allCategories = ["همه", ...new Set(cartItems.map((item) => item.category))]
   const [category, setCategory] = useState(allCategories)
 
   /*console.log(setCartItems)
@@ -16,7 +16,7 @@ export const TopProduct = () => {
     const newItem = topProducts.filter((item) => item.category === category)
     setCartItems(newItem)
 
-    if (category === "all") {
+    if (category === "همه") {
       setCartItems(topProducts)
       return
     }
@@ -27,17 +27,17 @@ export const TopProduct = () => {
         <div className='container'>
           <div className='head' style={{display:'flext',direction:"rtl"}}>
           
-            <div className='category' style={{}}>
+            <div className='category'>
                                         
                               
               {category.map((category) => (
                 <button className='button' onClick={() => handleFilter(category)}>
-                  {category}
+                  {category} 
                 </button>
               ))}
             </div>
           </div>
-          <div style={{marginTop:"5%",direction:"rtl"}}>
+          <div style={{marginTop:"2%",direction:"rtl"}}>
           <ProductItems cartItems={cartItems} />
 
           </div>

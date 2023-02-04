@@ -69,7 +69,7 @@ export const ProductItems = ({ cartItems }) => {
         <div className='onClickImage'>
           <img src={img} alt='' />
           <button className='button' onClick={() => setOpenImage(false)}>
-            <AiOutlineClose />
+            <AiOutlineClose /> 
           </button>
         </div>
       </div>

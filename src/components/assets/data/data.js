@@ -152,7 +152,7 @@ export const topProducts = [
     title: " مبل راحتی مدل سه نفره",
     author: "مبل راحتی با ظاهری منحصر به فرد و طراحی جدید و مدرن، میتواند پیشنهاد مدل نفره روبرتو ",
     price: "30.00",
-    category: "icons",
+    category: "مبل",
     qty: 0,
   },
 
@@ -162,7 +162,7 @@ export const topProducts = [
     title: "آباژور مدل صدف",
     author: "گروه تولیدی «زیمادر» سالها در زمینه تولید محصولات روشنایی و دکوراسیون منزل فعال بوده و محصولاتی مرغوب",
     price: "30.00",
-    category: "web theme",
+    category: "آباژور",
     qty: 0,
   },
   {
@@ -171,7 +171,7 @@ export const topProducts = [
     title: "مبل راحتی مدل ماتریس",
     author: "خستگی یک روز کاری و پر مشغله قطعا با یک خواب راحت از بین می‌رود. تخت خواب دو د باارچه است که به سبک",
     price: "30.00",
-    category: "icons",
+    category: "مبل",
     qty: 0,
   },
 
@@ -182,7 +182,7 @@ export const topProducts = [
     title: "تخت مدل ماهور",
     author: "خستگی یک روز کاری و پر مشغله قطعا با یک خواب راحت از بین می‌رود. تخت خواب دو د باارچه است که به سبک",
     price: "30.00",
-    category: "images stocks",
+    category: "تخت",
     qty: 0,
   },
 
@@ -192,7 +192,7 @@ export const topProducts = [
     title: "آباژور مدل پایه دار",
     author: "گروه تولیدی «زیمادر» سالها در زمینه تولید محصولات روشنایی و دکوراسیون منزل فعال بوده و محصولاتی مرغوب",
     price: "30.00",
-    category: "web theme",
+    category: "آباژور",
     qty: 0,
   },
   {
@@ -201,7 +201,7 @@ export const topProducts = [
     title: "میز مدل ایکس",
     author: "میز عسلی و کنار مبلی کشو دار مدل STAR A3 با طراحی زیبا و و کیفیت ساخت عالی و رنگ الکترواستاتیک با ",
     price: "30.00",
-    category: "mockups",
+    category: "میز",
     qty: 0,
   },
   {
@@ -210,7 +210,7 @@ export const topProducts = [
     title: "میز مدل پینار",
     author: "میز عسلی و کنار دار مدل STAR A3 با طراحی زیبا و و کیفیت ساخت عالی و ام دی اف خارجی با ",
     price: "30.00",
-    category: "mockups",
+    category: "میز",
     qty: 0,
   },
   {
@@ -219,7 +219,7 @@ export const topProducts = [
     title: " تخت مدل ماهان",
     author: "خستگی یک روز کاری و پر مشغله قطعا با یک خواب راحت از بین می‌رود. تخت خواب دو د باارچه است که به سبک",
     price: "30.00",
-    category: "images stocks",
+    category: "تخت",
     qty: 0,
   },
 ]
