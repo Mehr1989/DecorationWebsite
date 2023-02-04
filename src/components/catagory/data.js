@@ -56,7 +56,7 @@ export const responsive = {
       id: 5,
       imageurl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIBp07z1kdx8hf-kZKADJrFo_R8HpM0yK1Vw&usqp=CAU",
-      name: "دستشویی",
+      name: "دستشویی و حمام",
       
     },
     {
@@ -76,8 +76,8 @@ export const responsive = {
     {
       id: 8,
       imageurl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTs7tXPyg6mAwKTeUqaszqljEdxjMnU9wmg&usqp=CAU",
-      name: "ویلا",
+        "https://img.staticmb.com/mbcontent/images/uploads/2021/9/direction-as-per-vastu-for-gym_1631008743015.jpg",
+      name: "باشگاه",
       
     },
   ];

@@ -6,6 +6,10 @@
     @include flex(center, space-between, center);
   }
   .category {
+    margin-top: 5%;
+    display:flex;
+    justify-content:start;
+    float:"left";
     @extend .head;
     width: 50%;
     button {

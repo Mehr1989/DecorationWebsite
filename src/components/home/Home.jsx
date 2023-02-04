@@ -9,16 +9,8 @@ export const Home = () => {
   return (
     <>
       
-     
       <Catagory />
       <TopProduct />
-      <Product />
-      
-      
-     
-     
-      
-     
     
      
     </>

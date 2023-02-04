@@ -29,7 +29,10 @@ export const ProductItems = ({ cartItems }) => {
               {/* <Link to={`/cart/${items.id}`}>
                 <img src={items.cover} alt='' />
               </Link>*/}
-              <img src={items.cover} alt='' />
+              <div style={{marginTop:"5%",padding:"5%",height:"45vh",width:"auto"}}>  
+                 <img src={items.cover} alt='' />
+               </div>
+           
               <div className='overlay'>
                 {/* 
                 =>yadi button ma click garyo bhane chai items chai add hunxa 
@@ -47,9 +50,16 @@ export const ProductItems = ({ cartItems }) => {
               </div>
             </div>
             <div className='details'>
-              <h3>{items.title}</h3>
-              <p>{items.author}</p>
-              <h4>${items.price}</h4>
+              <div style={{display:"flex",justifyContent:"center"}}>
+              <h3 style={{fontSize:"20px",fontWeight:"800"}}>{items.title}</h3>
+              
+
+              </div>
+              <div style={{height:"9vh"}}>
+
+                <p>{items.author}</p>
+              </div>
+
             </div>
           </div>
         ))}

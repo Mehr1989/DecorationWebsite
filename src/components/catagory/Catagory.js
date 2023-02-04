@@ -27,7 +27,7 @@ export default function Catagory() {
       </div>
       <div>
 
-       <Carousel showDots={true} responsive={responsive}>
+       <Carousel showDots={true} responsive={responsive} >
         {product}
       </Carousel>
       </div>

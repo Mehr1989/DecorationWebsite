@@ -25,9 +25,11 @@ export const TopProduct = () => {
     <>
       <section className='topproduct'>
         <div className='container'>
-          <div className='head'>
-            <Heading title='Top Selling Products' desc='Meet our newbies! The latest templates uploaded to the marketplace.' />
-            <div className='category'>
+          <div className='head' style={{display:'flext',direction:"rtl"}}>
+          
+            <div className='category' style={{}}>
+                                        
+                              
               {category.map((category) => (
                 <button className='button' onClick={() => handleFilter(category)}>
                   {category}
@@ -35,7 +37,11 @@ export const TopProduct = () => {
               ))}
             </div>
           </div>
+          <div style={{marginTop:"5%",direction:"rtl"}}>
           <ProductItems cartItems={cartItems} />
+
+          </div>
+         
         </div>
       </section>
     </>

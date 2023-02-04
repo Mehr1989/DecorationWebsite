@@ -77,7 +77,7 @@ export const Header = () => {
           </nav>
           <div className='right'>
             <div className='right_search'>
-              <input type='text' placeholder="...جستجو"/>
+              <input type='text' placeholder="...جستجو" style={{border:"4px solid black",borderRadius:"8px"}}/>
               <BiSearch className='serachIcon heIcon' />
             </div>
             <div className='right_user'>
