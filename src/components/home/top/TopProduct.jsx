@@ -27,17 +27,17 @@ export const TopProduct = () => {
         <div className='container'>
           <div className='head' style={{display:'flext',direction:"rtl"}}>
           
-            <div className='category'>
+            <div className='category'  >
                                         
                               
               {category.map((category) => (
-                <button className='button' onClick={() => handleFilter(category)}>
+                <button className='button'  onClick={() => handleFilter(category)}>
                   {category} 
                 </button>
               ))}
             </div>
           </div>
-          <div style={{marginTop:"2%",direction:"rtl"}}>
+          <div style={{direction:"rtl"}}>
           <ProductItems cartItems={cartItems} />
 
           </div>

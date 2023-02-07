@@ -8,7 +8,7 @@ export const Product = () => {
   return (
     <>
       <section className='product'>
-        <div className='container'>
+        <div className='container' >
           <Heading title='Trendings Products' desc='Check the hottest designs of the week. These rising stars are worth your attention.' />
 
           <ProductItems cartItems={cartItems} />

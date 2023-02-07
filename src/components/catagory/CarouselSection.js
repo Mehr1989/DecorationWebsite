@@ -11,7 +11,7 @@ export default function CarouselSection(props) {
   
       
       <div style={{paddingTop:"10%"}}>
-      <h2 style={{marginTop:"30%"}}>{props.name}</h2>
+      <h2 style={{marginBottom:"8%"}}>{props.name}</h2>
 
       </div>
       

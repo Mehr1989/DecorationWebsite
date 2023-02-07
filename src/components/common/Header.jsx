@@ -60,7 +60,7 @@ export const Header = () => {
         
         <div className='container' style={{direction:"rtl"}}>
           <nav>
-            <div className='toggle'>
+            <div className='toggle' >
               <button onClick={() => setMobile(!mobile)}>{mobile ? <AiOutlineClose className='close heIcon' /> : <AiOutlineMenu className='open heIcon' />}</button>
             </div>
            
@@ -68,7 +68,7 @@ export const Header = () => {
             <div className='center'>
               <ul className={mobile ? "mobile-nav" : "menu"}>
                 {navlist.map((nav, i) => (
-                  <li key={i}>
+                  <li key={i} style={{padding:"13px"}}>
                     <Link to={nav.path}>{nav.text}</Link>
                   </li>
                 ))}
@@ -84,7 +84,7 @@ export const Header = () => {
               <RiUser3Line className='userIcon heIcon' />
               <AiOutlineHeart className='userIcon heIcon' />
             </div>
-            <div className='right_card'>
+            <div className='right_card' >
               <button className='button' onClick={() => setCartList(!cartList)}>
                 <BsBagCheck className='shop heIcon' />
                 سبد خرید<span> ({getdata.length})</span>
@@ -97,7 +97,7 @@ export const Header = () => {
                       <p>Product Name</p>
                     </div>
                     {getdata.map((e) => (
-                      <div className='details_content'>
+                      <div className='details_content' >
                         <div className='details_content_img'>
                           <Link to={`/cart/${e.id}`} onClick={handleCloses}>
                             <img src={e.cover} alt='' />

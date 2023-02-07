@@ -22,7 +22,7 @@ export default function Catagory() {
   return (
     <div className="Catagory">
       <div style={{display:"flex",justifyContent:"center"}}>
-      <h1>ایده های دکوراسیون و طراحی خانه</h1>
+      <h1 style={{fontSize:"23px"}}>ایده های دکوراسیون و طراحی خانه</h1>
 
       </div>
       <div>

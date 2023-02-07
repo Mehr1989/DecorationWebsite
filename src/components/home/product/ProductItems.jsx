@@ -29,7 +29,7 @@ export const ProductItems = ({ cartItems }) => {
               {/* <Link to={`/cart/${items.id}`}>
                 <img src={items.cover} alt='' />
               </Link>*/}
-              <div style={{marginTop:"5%",padding:"5%",height:"45vh",width:"auto"}}>  
+              <div style={{marginTop:"5%",padding:"5%",height:"auto",width:"100%"}}>  
                  <img src={items.cover} alt='' />
                </div>
            
@@ -67,8 +67,8 @@ export const ProductItems = ({ cartItems }) => {
 
       <div className={openImage ? "modelOpen" : "modelClose"}>
         <div className='onClickImage'>
-          <img src={img} alt='' />
-          <button className='button' onClick={() => setOpenImage(false)}>
+          <img src={img} alt='' style={{widt:"100%",height:"auto",objectFit:"cover"}}/>
+          <button className='button' onClick={() => setOpenImage(false)} >
             <AiOutlineClose /> 
           </button>
         </div>
