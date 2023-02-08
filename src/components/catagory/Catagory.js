@@ -25,7 +25,7 @@ export default function Catagory() {
       <h1 style={{fontSize:"23px"}}>ایده های دکوراسیون و طراحی خانه</h1>
 
       </div>
-      <div>
+      <div >
 
        <Carousel showDots={true} responsive={responsive} >
         {product}
